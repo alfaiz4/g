@@ -1,6 +1,6 @@
 // Fungsi untuk membuat spinner
 function startSpinner() {
-    const spinnerChars = ['|', '/', '-', '\\']; // Karakter spinner
+    const spinnerChars = ['oh', 'my', 'faiz', '**']; // Karakter spinner
     let index = 0; // Indeks untuk karakter spinner
 
     // Menggunakan setInterval untuk memperbarui spinner setiap 100ms
@@ -21,4 +21,4 @@ setTimeout(() => {
     // Menghentikan spinner setelah 5 detik
     stopSpinner();
     console.log('\nProses selesai!'); // Menampilkan pesan selesai
-}, 5000);
+}, 10000);
